@@ -1,0 +1,21 @@
+{
+  "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:kanzo:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:kanzo:main#key-1", 
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:kanzo:main",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "GKnLCrIykfVcLpcIo8qFFIzjBBtLIR2SEgP7pxnYG1o" 
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:kanzo:main#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:kanzo:main#key-1"
+  ]
+}
