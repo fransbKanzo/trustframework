@@ -1,1 +1,23 @@
-
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:jointTrust",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:jointTrust#JWK2020-RSA",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "szgTWWCgDavHoS-d29ngRDl2tbvxFtvJ_LkwWNObKwWOs4naokALWoFTD4TqjBMQwGxREmg6CWe4I1wHbfCXw3r8VoV0I04E9c7N2W3maNJ_t4Dl544eIyXZs6ZXiFWAzT0D39iK0_l9z66eKX6QJJgWSHsZ09EBYlU8a3OVzpY4PhAliwl5rxt-IM5UhtaP8cAE6yK5fIQWctYbeQc55b37bGvB3SEVbISOudVf3DfNG5FrSjxuQb-4uQIaudiBIQS_M2ngvinktfo9H-iMDNfmg86yovZLUmCBZ-8IkNm7wc4RJ7b2Q_nvTWpu-QNZSlPJzozjHEqruK5UbcGhvQ",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/fransbKanzo/trustframework/main/jointTrust/certs/cert.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:jointTrust#JWK2020-RSA"
+  ]
+}
