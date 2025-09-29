@@ -1,1 +1,36 @@
-
+{
+        "@context": [
+            "https://www.w3.org/ns/did/v1",
+            "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+        ],
+        "id": "did:web:edaan.agora-datalab.eu:test",
+        "verificationMethod": [
+            {
+                "id": "did:web:edaan.agora-datalab.eu:test#JWK2020-RSA",
+                "type": "JsonWebKey2020",
+                "publicKeyJwk": {
+                    "kty": "RSA",
+                    "n": "u61w4aEfW_C6X-Wdk2ONSCMbnzyCggGmOmQ6n9pyTvlWX-VWTyZe6XEz8TN_lncD-429ChVfd74YNBzJEfBWFYBLQbE9ZanKQJnoTDnGgP_N_vnOprKwhFSkM4h3Sgi8GdHBAh6A0dt1jYO2t42lA_KjBfPJ49Ab7p7zJUr32jffUtKDprPUfcIkRvOEhMBA1jlbH0ytsFufeTGS4Vs4kh430QnEb_J7-ugdbveCLWLCSL73qwlTDwIGcGuV3SCCAbejcanQu_WDphB5pcs-QGNRmngFGJClxTZEWygVk9hdOEu652W15_sL38Y7nco3pxcPauWCPXobGGH_5eCc0w",
+                    "e": "AQAB",
+                    "alg": "RS256"
+                }
+            },
+            {
+                "id": "did:web:edaan.agora-datalab.eu:test#ed25519-key-1",
+                "type": "JsonWebKey2020",
+                "controller": "did:web:edaan.agora-datalab.eu:test",
+                "publicKeyJwk": {
+                    "kty": "OKP",
+                    "crv": "Ed25519",
+                    "x": "R5IU_6LFjrHtZrV4W8kxy3qOb3trgYx0H3VG-zgoGIg"
+                }
+            }
+        ],
+        "assertionMethod": [
+            "did:web:edaan.agora-datalab.eu:test#JWK2020-RSA",
+            "did:web:edaan.agora-datalab.eu:test#ed25519-key-1"
+        ],
+        "authentication": [
+            "did:web:edaan.agora-datalab.eu:test#ed25519-key-1"
+        ]
+    }
