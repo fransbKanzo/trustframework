@@ -17,9 +17,9 @@
                 }
             },
             {
-                "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test#ed25519-key-1",
+                "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#ed25519-key-1",
                 "type": "JsonWebKey2020",
-                "controller": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test",
+                "controller": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test",
                 "publicKeyJwk": {
                     "kty": "OKP",
                     "crv": "Ed25519",
@@ -28,10 +28,10 @@
             }
         ],
         "assertionMethod": [
-            "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test#JWK2020-RSA",
-            "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test#ed25519-key-1"
+            "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#JWK2020-RSA",
+            "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#ed25519-key-1"
         ],
         "authentication": [
-            "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test#ed25519-key-1"
+            "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#ed25519-key-1"
         ]
     }
