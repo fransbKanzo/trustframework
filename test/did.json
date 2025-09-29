@@ -3,10 +3,10 @@
             "https://www.w3.org/ns/did/v1",
             "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
         ],
-        "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test",
+        "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test",
         "verificationMethod": [
             {
-                "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#JWK2020-RSA",
+                "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#JWK2020-RSA",
                 "type": "JsonWebKey2020",
                 "publicKeyJwk": {
                     "kty": "RSA",
@@ -17,7 +17,7 @@
                 }
             },
             {
-                "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#ed25519-key-1",
+                "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#ed25519-key-1",
                 "type": "JsonWebKey2020",
                 "controller": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test",
                 "publicKeyJwk": {
@@ -28,10 +28,10 @@
             }
         ],
         "assertionMethod": [
-            "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#JWK2020-RSA",
-            "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#ed25519-key-1"
+            "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#JWK2020-RSA",
+            "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#ed25519-key-1"
         ],
         "authentication": [
-            "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#ed25519-key-1"
+            "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#ed25519-key-1"
         ]
     }
