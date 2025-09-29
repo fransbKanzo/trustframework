@@ -3,7 +3,7 @@
             "https://www.w3.org/ns/did/v1",
             "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
         ],
-        "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test",
+        "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test",
         "verificationMethod": [
             {
                 "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#JWK2020-RSA",
