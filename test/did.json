@@ -6,7 +6,7 @@
         "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test",
         "verificationMethod": [
             {
-                "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test#JWK2020-RSA",
+                "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test#JWK2020-RSA",
                 "type": "JsonWebKey2020",
                 "publicKeyJwk": {
                     "kty": "RSA",
