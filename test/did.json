@@ -12,7 +12,8 @@
                     "kty": "RSA",
                     "n": "u61w4aEfW_C6X-Wdk2ONSCMbnzyCggGmOmQ6n9pyTvlWX-VWTyZe6XEz8TN_lncD-429ChVfd74YNBzJEfBWFYBLQbE9ZanKQJnoTDnGgP_N_vnOprKwhFSkM4h3Sgi8GdHBAh6A0dt1jYO2t42lA_KjBfPJ49Ab7p7zJUr32jffUtKDprPUfcIkRvOEhMBA1jlbH0ytsFufeTGS4Vs4kh430QnEb_J7-ugdbveCLWLCSL73qwlTDwIGcGuV3SCCAbejcanQu_WDphB5pcs-QGNRmngFGJClxTZEWygVk9hdOEu652W15_sL38Y7nco3pxcPauWCPXobGGH_5eCc0w",
                     "e": "AQAB",
-                    "alg": "RS256"
+                    "alg": "RS256",
+                    "x5u": "https://raw.githubusercontent.com/fransbKanzo/trustframework/main/test/certs/cert.pem"
                 }
             },
             {
