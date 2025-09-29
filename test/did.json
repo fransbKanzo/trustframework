@@ -3,35 +3,36 @@
             "https://www.w3.org/ns/did/v1",
             "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
         ],
-        "id": "did:web:edaan.agora-datalab.eu:test",
+        "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test",
         "verificationMethod": [
             {
-                "id": "did:web:edaan.agora-datalab.eu:test#JWK2020-RSA",
+                "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test#JWK2020-RSA",
                 "type": "JsonWebKey2020",
+                "controller": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test",
                 "publicKeyJwk": {
                     "kty": "RSA",
-                    "n": "u61w4aEfW_C6X-Wdk2ONSCMbnzyCggGmOmQ6n9pyTvlWX-VWTyZe6XEz8TN_lncD-429ChVfd74YNBzJEfBWFYBLQbE9ZanKQJnoTDnGgP_N_vnOprKwhFSkM4h3Sgi8GdHBAh6A0dt1jYO2t42lA_KjBfPJ49Ab7p7zJUr32jffUtKDprPUfcIkRvOEhMBA1jlbH0ytsFufeTGS4Vs4kh430QnEb_J7-ugdbveCLWLCSL73qwlTDwIGcGuV3SCCAbejcanQu_WDphB5pcs-QGNRmngFGJClxTZEWygVk9hdOEu652W15_sL38Y7nco3pxcPauWCPXobGGH_5eCc0w",
+                    "n": "nSJ6vmdNFgRGtuBxqCsXviLKCZ-zmjaNUFhb7FXMDYRmM2tms3ZA9Te8xKJZxms6LDQM-9ozX3JgDkiOhIWEXoMqUyI5dlQ-Vw4UZsKdf161SYv1_685za9gntYfmJpDW-ynXnnGX3cV_YZswqCGPukiOX6uVLH5ucVsh5XnlywSXhKWYMe7DfzpXtIeYodNBVqQMrFI44M9lSWzAT31e3jgQadeB2YHcqtfqz2zpPCQih9nv8E9kE7xvw5GR-LqvtL-i7O0db8_aRiBCL0oH6LhIwI3hCvI6FUstJ4caqsobKf-sYfALvMK1muk58AEUBm6WnhTKOizang016P3ow",
                     "e": "AQAB",
                     "alg": "RS256",
                     "x5u": "https://raw.githubusercontent.com/fransbKanzo/trustframework/main/test/certs/cert.pem"
                 }
             },
             {
-                "id": "did:web:edaan.agora-datalab.eu:test#ed25519-key-1",
+                "id": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test#ed25519-key-1",
                 "type": "JsonWebKey2020",
-                "controller": "did:web:edaan.agora-datalab.eu:test",
+                "controller": "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test",
                 "publicKeyJwk": {
                     "kty": "OKP",
                     "crv": "Ed25519",
-                    "x": "R5IU_6LFjrHtZrV4W8kxy3qOb3trgYx0H3VG-zgoGIg"
+                    "x": "tH1AKwNmUMWXYa-TcKv5bKCPAmwVWDTJkS9IXxtlWuM"
                 }
             }
         ],
         "assertionMethod": [
-            "did:web:edaan.agora-datalab.eu:test#JWK2020-RSA",
-            "did:web:edaan.agora-datalab.eu:test#ed25519-key-1"
+            "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test#JWK2020-RSA",
+            "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test#ed25519-key-1"
         ],
         "authentication": [
-            "did:web:edaan.agora-datalab.eu:test#ed25519-key-1"
+            "did:web:did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test:test#ed25519-key-1"
         ]
     }
