@@ -29,9 +29,9 @@
   ],
   "assertionMethod": [
     "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:jointTrust#JWK2020-RSA",
-    "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main#ed25519-key-1"
+    "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:jointTrust#ed25519-key-1"
   ],
   "authentication": [
-        "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main#ed25519-key-1"
+        "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:jointTrust#ed25519-key-1"
   ]
 }
