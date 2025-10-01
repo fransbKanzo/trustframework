@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test4",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test4#JWK2020-RSA",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test4",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "x5irQO3nlBMwFMcvWOtETTu80xJ3Ii31RGHkvO_9I1VxomvZgkUilCYlzaeUy4DOlYcPl8raVWY3_-TUzqEyllOMNpxPA5V8gTKKfmjo-b_mh9pSQEBbFuCcwNqbrTxWlX20wGsTgYZ-CctNFVeO6nyhpDM6nN7PIe_IdLpFYbtmcneurEdvv6UZE-nlAcoAu-IbSiezd95m-haRPLPLwAgS77f37ENv8lose5wujpCuyNBzogFuf807A7NqLI0wxKbv18NWAr9rYFR2Aq2KbiH4uaUyPg75KyxJTmo9LXe25Sm4fBnTqp5nAV-vNyU3zoy65rtMGsVFmvA4xJRfIw",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/fransbKanzo/trustframework/main/test4/certs/cert.pem"
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test4#ed25519-key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test4",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "1sY9P3yP58ehXdqkIgyGd7h7ipJOalWsiucTQtnXiUs"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test4#JWK2020-RSA",
+    "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test4#ed25519-key-1"
+  ],
+  "authentication": [
+    "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test4#ed25519-key-1"
+  ]
+}
