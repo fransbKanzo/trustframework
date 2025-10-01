@@ -14,7 +14,7 @@
         "n": "qV5v6Po3j1T3oVdQL-qoy8aoG2233N2sJekNybSXTXnN6-mLv01aB81AV8HybW9Zu4WNKQ8dqb7QqIU5yAuMUbkaxo80n6WQB5BVtj5zYdQlGf-lZoyypuVxOHr43BnE3HgIiiIY_yiocO4WS924_0ReTb8nYz-OcdEidswSgEkDRSQvowD_GtEDutYbPnJadbXrK-F1ygCATMWvPh1ikurLWTyEZNfxw9qs-zJOLUhf43c_fKv64sMTaRVWdVC13aJUepldHha9Oa4ew_UAUhZv0cUl_3db_zzbCUMXuucyDL7uG-1wifJoqotk_xXdhXLq0C59lkC1ZMKKj4Xtvw",
         "e": "AQAB",
         "alg": "RS256",
-        "x5u": "https://raw.githubusercontent.com/fransbKanzo/trustframework/main"
+        "x5u": "https://raw.githubusercontent.com/fransbKanzo/trustframework/main/test3/certs/cert.pem"
       }
     },
     {
