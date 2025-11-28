@@ -1,0 +1,52 @@
+{
+        "@context": [
+            "https://www.w3.org/ns/did/v1",
+            "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+        ],
+        "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test6",
+        "verificationMethod": [
+            {
+                "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test6#JWK2020-RSA",
+                "type": "JsonWebKey2020",
+                "controller": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test6",
+                "publicKeyJwk": {
+                    "kty": "RSA",
+                    "n": "18mZyx2tRftLirkLkfxXlCmmUo72C57vlemX4gfOuk-DxSUMyDAywl6Lu6G7cEQsJ6QC6uXqzxdg2gEflvANcK5JhKvBgjwi_sFnUuPW5nn0iQwAAZdDpKftYyFdBntfKP0K0QgDh6hHKe5tQrl1OlcZiBTnyyrC2GvxyfxSQKVgxDQSvRWFCGq2RJt12ZDgeCIUS4N-I0bZ_g4xPxxLp_pFyekJm10nWkxDiuwl1PkPGs-6f27ZJf3DIsSesErEF1f-c1fvhjeaU90bIZxjmFey8B-u6nB6eTuzR5_qzhtSfVBAIGvRfbWCqkSpZsY8RDk58v4GN0E_JgOQb9Pggw",
+                    "e": "AQAB",
+                    "alg": "RS256",
+                    "x5u": "https://raw.githubusercontent.com/fransbKanzo/trustframework/main/test6/certs/cert.pem"
+                }
+            },
+            {
+                "id": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test6#EC256-key-1",
+                "type": "JsonWebKey2020",
+                "controller": "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test6",
+                "publicKeyJwk": {
+                    "kty": "EC",
+                    "crv": "P-256",
+                    "x": "QH85f9IWTnlZpCFpLPkW-WXeofTKA9oJUUhN8gM4ZSU",
+                    "y": "CPJyEk68Evm7v60nMly3_paeCfzLy2cayojBp1jTvIM",
+                    "use": "sig"
+                }
+            }
+        ],
+        "assertionMethod": [
+            "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test6#JWK2020-RSA",
+            "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test6#EC256-key-1"
+        ],
+        "authentication": [
+            "did:web:raw.githubusercontent.com:fransbKanzo:trustframework:main:test6#EC256-key-1"
+        ],
+        "service": [
+            {
+                "id": "credential-service-1",
+                "type": "CredentialService",
+                "serviceEndpoint": "https://your-identity-hub-url/api/credentials/v1/participants/ZGlkOndlYjpyYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tOmZyYW5zYkthbnpvOnRydXN0ZnJhbWV3b3JrOm1haW46dGVzdDY"
+            },
+            {
+                "id": "protocol-endpoint-1",
+                "type": "ProtocolEndpoint",
+                "serviceEndpoint": "https://your-connector-url/api/dsp"
+            }
+        ]
+    }
